@@ -1,6 +1,6 @@
 # Solve Double Integrals using SimponsRule
 This code will allow you to solve a double integral using Simpson's Rule.
-
+```
 A sample test programme that demonstrates how to calculate a Double Integral using Simpson's Rule is shown below. The following is the function to be calculated:
 
 	zd = cos(pi * cos(x) / 2.0) * cos(pi * (1.0 - sin(x) * cos(y)) / 4.0);
@@ -117,3 +117,4 @@ double zd;
 	zd = pow(zd, 2.0)/sin(x);
 	return (fabs(zd));
 }
+```
